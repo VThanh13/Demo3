@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SignUp_Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_Key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_comboboxmini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_comboboxmini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_phone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_phone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form2_textbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form2_textbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_details" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_details.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_Del" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_Del.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_panelbutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_panelbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_key1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_key1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_detail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_detail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cart_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cart_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cart_panel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cart_panel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_name" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_name.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_bill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_bill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_qcbb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_qcbb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_endtitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_endtitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tic_pic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tic_pic2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_company" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_company.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GradeVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GradeVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_Mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_Mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_username" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_username.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_origin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_origin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_destination" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_destination.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fom2_repeatpass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fom2_repeatpass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_day" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_day.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TimeVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TimeVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_Airport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_Airport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TitleVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TitleVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_panel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_panel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_texfield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_texfield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_panelbutton2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_panelbutton2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeriVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeriVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_panel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_panel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DesVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DesVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_search1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_search1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg3Ve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg3Ve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_panel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_panel2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_combobõ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_combobõ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flightdetail_company1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flightdetail_company1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_new11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_new11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_name" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_name.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_ticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="billdetail_datew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\billdetail_datew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_booking1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_booking1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_row" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_row.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3chamVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3chamVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_new1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_new1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_arilines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_arilines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intro_BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intro_BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form2_newpass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form2_newpass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_yourprofile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_yourprofile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form1_birthday" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form1_birthday.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_theflight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_theflight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_load.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_panel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_panel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_eMail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_eMail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ve_date" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ve_date.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intro_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intro_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flightdetail_date" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flightdetail_date.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="billdetail_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\billdetail_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_username1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_username1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_plane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_search1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_search1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_panelbutton21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_panelbutton21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_Profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_Profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_city" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_city.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_UserName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_UserName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cart_combobox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cart_combobox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form1_phone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form1_phone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_User" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_booking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_booking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_nottic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_nottic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_service" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_service.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_usericon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_usericon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Panel_admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Panel_admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_setting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Billdetail_quantity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Billdetail_quantity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_YourName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_YourName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_cart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_cart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form2_oldpass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form2_oldpass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_company" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_company.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_yourname" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_yourname.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_origin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_origin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tic_pic3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tic_pic3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_combobox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_combobox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_pasword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_pasword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg2Ve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg2Ve.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_Phonenumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_Phonenumber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="billdetail_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\billdetail_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_booking1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_booking1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tic_pic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tic_pic1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_yourprofile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_yourprofile1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intro_User" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intro_User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_origin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_origin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flightdetail_company" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flightdetail_company.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SignUp_end" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignUp_end.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cart_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cart_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QRVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QRVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_des" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_des.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_sex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_sex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_address" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_address.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="form2_note" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form2_note.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OriginVe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OriginVe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form_tic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_tic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin_theflight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin_theflight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form1_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form1_avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intro_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intro_title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intro_admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intro_admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form2_username" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form2_username.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_Des" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_Des.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Booking_quantity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Booking_quantity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flight_detail_booking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flight_detail_booking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User_login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flightdetail_price" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flightdetail_price.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cart_condition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cart_condition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_panel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_panel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="change_pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\change_pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
